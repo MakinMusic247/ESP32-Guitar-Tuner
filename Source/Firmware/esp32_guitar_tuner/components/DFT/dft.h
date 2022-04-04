@@ -15,9 +15,7 @@ public: // Publically available member functions of the class.
 
     void init(int N, bool is_forward);
     
-    void perform_transform(float* real, float* imag);
-
-    void display(const float *data, int32_t len, int width, int height, float min, float max, char view_char);
+    void perform_transform(float* real, float* imag, int stride);
     
 private: // Internal helper functions
     void cleanup()

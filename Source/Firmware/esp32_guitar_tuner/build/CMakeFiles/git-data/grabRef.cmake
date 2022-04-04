@@ -18,7 +18,7 @@ set(HEAD_HASH)
 file(READ "C:/Users/nickr/Documents/Projects/ESP32 Guitar Tuner/Source/Firmware/esp32_guitar_tuner/build/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
-set(GIT_DIR "C:/Users/nickr/.espressif/frameworks/esp-idf-v4.4/.git")
+set(GIT_DIR "C:/Users/nickr/Documents/Projects/ESP32 Guitar Tuner/.git")
 # handle git-worktree
 if(EXISTS "${GIT_DIR}/commondir")
 	file(READ "${GIT_DIR}/commondir" GIT_DIR_NEW LIMIT 1024)
