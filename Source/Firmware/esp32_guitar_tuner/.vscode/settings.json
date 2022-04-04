@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "cstddef": "cpp",
+        "cstdio": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp",
+        "xiosbase": "cpp"
+    }
+}
