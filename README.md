@@ -17,6 +17,6 @@ We can determine the note being played by working out the fundamental frequency 
 The signal coming from an electric guitar is small (approximately +-100->300mV). For a microcontoller to distinguish between samples of similar magnitude, we should amplify the signal to maximize these differences. A typical microcontroller accepts voltages in the range of 0-3.3V or 0.5V, and the analog pins can be damaged by the negative part of an incoming AC signal. 
 ![image](https://user-images.githubusercontent.com/102794563/161470953-bfb4b4d2-8bee-409f-9ee6-b38120fb463a.png)
 
-From the simulation results below we can see that the circuit can offset and amplify the incoming signal to fit the desired range of the microcontroller analog pin
+From the simulation results below we can see that the circuit can offset and amplify the incoming signal to fit the desired range of the microcontroller analog pin (green is the input guitar signal and blue is the output of the amplifier/offset circuit)
 ![image](https://user-images.githubusercontent.com/102794563/161471068-3d126e1d-eb89-44ff-972c-c3f167e40500.png)
 
