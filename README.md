@@ -7,6 +7,7 @@ ESP32 Based guitar tuner
 
 ## Background
 Each note played on the guitar creates a signal with a certain fundamental frequency
+
 ![image](https://user-images.githubusercontent.com/102794563/161469939-41ff7dc8-fb4e-496f-9ce2-b11f3faa0bed.png)
 
 We can determine the note being played by working out the fundamental frequency of the signal taken from the guitar
